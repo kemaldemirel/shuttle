@@ -1,5 +1,6 @@
 section{
   margin: 2rem 0;
+  padding: 0 2rem;
 }
 
 .fixed-nav{
@@ -122,7 +123,7 @@ section{
 /* Larger than mobile */
 @media (max-width: 400px) {
   .go-up .fa{
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
 
