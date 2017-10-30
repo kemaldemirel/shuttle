@@ -141,9 +141,6 @@ section{
   .content p{
     font-size: 1.5rem;
   }
-  .go-up .fa{
-    left: 2%;
-  }
 }
 
 /* Larger than tablet */
