@@ -122,9 +122,9 @@ section{
 
 /* Larger than mobile */
 @media (max-width: 400px) {
-  .go-up .fa{
-    font-size: 2rem;
-  }
+  /*.go-up .fa{
+    font-size: 2.5rem;
+  }*/
 }
 
 /* Larger than phablet */
