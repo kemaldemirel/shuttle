@@ -1,0 +1,155 @@
+section{
+  margin: 2rem 0;
+}
+
+.fixed-nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.main-nav{
+  border-bottom:2px solid #f4f4f4;
+}
+
+.logo{
+  display: inline-block;
+  text-decoration: none;
+  color: #222;
+  line-height: 6rem;
+}
+
+.logo .fa{
+  margin-right: 1rem;
+  font-size: 3rem;
+  vertical-align: middle;
+}
+
+.nav-ul{
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.nav-ul::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.nav-ul__item{
+  float: left;
+  margin-right: 3rem;
+  margin-bottom: 0;
+  line-height: 6rem;
+}
+
+.nav-ul__item:last-child{
+  margin-right: 0;
+}
+
+.nav-ul__item a{
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.nav-ul__item a:hover{
+  color: #1EAEDB;
+}
+
+.header__post .fa{
+  float: right;
+}
+
+.title__post{
+  display: inline-block;
+}
+
+.title__post a{
+  text-decoration: none;
+  color: #222;
+}
+
+.title__post a:hover{
+  color: #1EAEDB;
+}
+
+.img__post{
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1.7rem;
+}
+
+/*.img__post img{
+  width: 100%;
+  height: auto;
+}*/
+
+.content p{
+  font-size: 1.7rem;
+}
+
+
+.go-up{
+  display: none;
+  position: fixed;
+  width: 7%;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.go-up:hover .fa{
+  color: #1EAEDB;
+}
+
+.go-up .fa{
+  position: absolute;
+  left: 25%;
+  bottom: 70px;
+  font-size: 3rem;
+  transform: rotate(-90deg);
+}
+
+
+/* Larger than mobile */
+@media (max-width: 400px) {
+  .go-up .fa{
+    font-size: 1.7rem;
+  }
+}
+
+/* Larger than phablet */
+@media (max-width: 550px) {
+  .logo .fa{
+    font-size: 2.5rem;
+  }
+  .nav-ul__item a{
+    font-size: 1rem;
+  }
+  .title__post{
+    font-size: 3rem;
+  }
+  .content p{
+    font-size: 1.5rem;
+  }
+  .go-up .fa{
+    left: 2%;
+  }
+}
+
+/* Larger than tablet */
+@media (max-width: 750px) {}
+
+/* Larger than desktop */
+@media (max-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (max-width: 1200px) {}
