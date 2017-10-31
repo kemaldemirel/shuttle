@@ -1,3 +1,8 @@
+::selection {
+  background-color: #1EAEDB;
+  color: #fff;
+}
+
 section{
   margin: 2rem 0;
   padding: 0 2rem;
@@ -122,9 +127,7 @@ section{
 
 /* Larger than mobile */
 @media (max-width: 400px) {
-  /*.go-up .fa{
-    font-size: 2.5rem;
-  }*/
+
 }
 
 /* Larger than phablet */
@@ -138,13 +141,42 @@ section{
   .title__post{
     font-size: 3rem;
   }
-  .content p{
-    font-size: 1.5rem;
-  }
+}
+
+.main-footer{
+  text-align: center;
+}
+
+.contact-title{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.photo,
+.about-me{
+  padding: 0;
+}
+
+.photo img{
+  width: 100%;
+  height: auto;
 }
 
 /* Larger than tablet */
-@media (max-width: 750px) {}
+@media (max-width: 750px) {
+  section,
+  .main-nav{
+    padding: 0 1rem;
+  }
+  .container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .go-up .fa{
+    opacity: 0.4;
+  }
+}
 
 /* Larger than desktop */
 @media (max-width: 1000px) {}
